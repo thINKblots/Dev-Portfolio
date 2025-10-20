@@ -50,6 +50,26 @@ header {
     background-color: var(--color-background);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
+.home-link {
+  /* This makes the entire logo area clickable */
+  display: block;
+  text-decoration: none; /* Removes the underline from the link */
+  color: inherit; /* Inherits the text color from its parent element */
+}
+
+.home-link:hover {
+  /* Optional: Add a style change on hover for user feedback */
+  opacity: 0.8;
+}
+
+.logo {
+  /* Add your specific styling for the logo here */
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 10px;
+  text-align: center;
+}
+
 
 .logo {
     font-size: 1.5em;
